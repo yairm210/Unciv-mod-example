@@ -1,0 +1,13 @@
+
+game.png
+size: 64,32
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Snow
+  rotate: false
+  xy: 2, 2
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
