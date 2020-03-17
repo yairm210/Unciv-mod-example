@@ -1,8 +1,0 @@
-[
-	{
-		name:"Snow",
-		type:"Land",
-		movementCost:1,
-		RGB: [255,255,255]
-	}
-]
