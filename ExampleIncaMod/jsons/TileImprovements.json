@@ -1,11 +1,13 @@
 [
 	{
-		name:"Terrace farm",
-		uniqueTo:"Inca",
-		food:2,
-		turnsToBuild:4,
-		improvingTech:"Construction",
-		improvingTechStats:{food:1}
-		terrainsCanBeBuiltOn:["Hills"],
-	},
+		"name":"Terrace farm",
+		"uniqueTo":"Inca",
+		"food":1,
+		"turnsToBuild":4,
+		"uniques": ["+1 Food for each adjacent Mountain","Cannot improve a resource"],
+		"techRequired":"Construction",
+		"improvingTech":"Fertilizer",
+		"improvingTechStats":{"food":1},
+		"terrainsCanBeBuiltOn":["Hill"]
+	}
 ]
