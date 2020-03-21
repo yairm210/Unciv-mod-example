@@ -1,18 +1,18 @@
 [
 	{
-		"name":"Slinger",
-		"unitType":"Ranged",
-		"uniqueTo":"Inca",
-		"replaces":"Archer",
-		"movement":2,
-		"strength":4,
-		"rangedStrength":7,
+		"name": "Slinger",
+		"unitType": "Ranged",
+		"uniqueTo": "Inca",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 7,
 		"cost": 40,
 		"hurryCostModifier": 20,
-		"requiredTech":"Archery",
-		"obsoleteTech":"Machinery",
-		"upgradesTo":"Crossbowman",
+		"requiredTech": "Archery",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
 		"promotions": ["Slinger Withdraw"],
-		"attackSound":"arrow"
+		"attackSound": "arrow"
 	}
 ]
