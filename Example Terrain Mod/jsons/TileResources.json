@@ -1,0 +1,11 @@
+[	
+	{
+		// This diverges from canon on purpose
+		"name": "Cocoa",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle"],
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1, "happiness": 2}
+	}
+]

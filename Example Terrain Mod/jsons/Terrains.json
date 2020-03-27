@@ -1,0 +1,22 @@
+[	
+	// Base terrains
+	{
+		"name": "Foothills",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 5,
+		"defenceBonus": 0.75,
+		"RGB": [111,60,0],
+		"rough": true
+	},
+	
+	// Terrain features
+	{
+		"name": "Eyrie",
+		"type": "TerrainFeature",
+		"food": 3,
+		"gold": 3,
+		"movementCost": 5,
+		"occursOn": ["Foothills"]
+	}
+]	
