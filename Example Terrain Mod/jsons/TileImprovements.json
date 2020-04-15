@@ -1,0 +1,11 @@
+[
+	{
+		"name": "Cocoa farm",
+		"resourceTerrainAllow": ["Jungle","Oasis"],
+		"turnsToBuild": 7,
+		"food": 1,
+		"techRequired": "Calendar",
+		"improvingTech": "Fertilizer",
+		"improvingTechStats": {"food":1}
+	}
+]

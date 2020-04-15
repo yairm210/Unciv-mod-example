@@ -3,9 +3,9 @@
 		// This diverges from canon on purpose
 		"name": "Cocoa",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle"],
-		"food": 1,
-		"improvement": "Plantation",
-		"improvementStats": {"gold": 1, "happiness": 2}
+		"terrainsCanBeFoundOn": ["Jungle","Oasis"],
+		"gold": 1,
+		"improvement": "Cocoa farm",
+		"improvementStats": {"gold": 2, "happiness": 2}
 	}
 ]
