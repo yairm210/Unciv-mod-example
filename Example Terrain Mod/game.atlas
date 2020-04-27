@@ -1,48 +1,83 @@
 
 game.png
-size: 512,128
+size: 1024,128
 format: RGBA8888
 filter: MipMapLinearLinear,MipMapLinearLinear
 repeat: none
-ImprovementIcons/Cocoa farm
-  rotate: false
-  xy: 104, 2
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Cocoa
+ImprovementIcons/Atoll fisheries
   rotate: false
   xy: 2, 2
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TileSets/Default/EyrieOverlay
+ImprovementIcons/Cocoa farm
   rotate: false
   xy: 206, 2
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TileSets/Default/FoothillsOverlay
+ResourceIcons/Cocoa
+  rotate: false
+  xy: 104, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/Default/EyrieOverlay
   rotate: false
   xy: 308, 2
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+TileSets/Default/FoothillsOverlay
+  rotate: false
+  xy: 410, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Coast+Atoll+Atoll fisheries
+  rotate: false
+  xy: 512, 74
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Foothills
   rotate: false
-  xy: 410, 66
+  xy: 512, 36
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Foothills+City
+  rotate: false
+  xy: 546, 67
+  size: 32, 35
+  orig: 32, 35
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Foothills+Eyrie
   rotate: false
-  xy: 410, 28
+  xy: 580, 66
   size: 32, 36
   orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Jungle+Cocoa farm
+  rotate: false
+  xy: 614, 68
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains+Jungle+Cocoa farm
+  rotate: false
+  xy: 648, 67
+  size: 32, 35
+  orig: 32, 35
   offset: 0, 0
   index: -1

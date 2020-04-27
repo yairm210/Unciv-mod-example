@@ -7,5 +7,15 @@
 		"techRequired": "Calendar",
 		"improvingTech": "Fertilizer",
 		"improvingTechStats": {"food":1}
+	},
+	{
+		"name": "Atoll fisheries",
+		"terrainsCanBeBuiltOn": ["Atoll"],
+		"turnsToBuild": 1,
+		"production": 1,
+		"techRequired": "Optics",
+		"improvingTech": "Astronomy",
+		"improvingTechStats": {"gold": 1}
 	}
+
 ]

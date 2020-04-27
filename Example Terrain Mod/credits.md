@@ -3,3 +3,4 @@ All the following are from [the Noun Project](https://thenounproject.com) licenc
 * [cocoa bean] (https://thenounproject.com/term/cocoa-bean/1650555) by art shop
 * [Eagle] (https://thenounproject.com/search/?q=eagle&i=1081341) by Aleks
 
+The other images are gimp'ed by SomeTroglodyte from images already credited in the main game.

@@ -3,6 +3,7 @@
 		// This diverges from canon on purpose
 		"name": "Cocoa",
 		"resourceType": "Luxury",
+		"revealedBy": "Writing",
 		"terrainsCanBeFoundOn": ["Jungle","Oasis"],
 		"gold": 1,
 		"improvement": "Cocoa farm",
