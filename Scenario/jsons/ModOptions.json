@@ -1,6 +1,0 @@
-{
-	"isBaseRuleset":true,
-	"techsToRemove":["Combustion"],
-	"buildingsToRemove":["The Great Lighthouse", "Lighthouse"],
-	"unitsToRemove": ["Rocket Artillery"]
-}
