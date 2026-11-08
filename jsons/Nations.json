@@ -1,40 +1,197 @@
 [
-	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
-
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
-		"denounced": "The accusations of primitive lifeforms are beneath us.",
-		"declaringfriendship": "Let us become like friends!",
-
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
+  {
+    "name": "Albania",
+    "leaderName": "Skanderbeg",
+    "adjective": ["Albanian"],
+    "startBias": ["Hill"],
+    "outerColor": [190, 0, 0],
+    "innerColor": [0, 0, 0],
+    "uniqueName": "Eagle of the Mountains",
+    "uniques": [
+      "[+15]% Strength <when fighting in [Hill] tiles>",
+      "[+1 Culture] from every [Monument]"
+    ],
+    "cities": [
+      "Tirana", "Durrës", "Shkodër", "Vlorë",
+      "Elbasan", "Korçë", "Berat", "Gjirokastër",
+      "Krujë", "Lezhë", "Fier", "Sarandë"
+    ]
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "leaderName": "Tvrtko I",
+    "adjective": ["Bosnian"],
+    "startBias": ["Hill"],
+    "outerColor": [0, 80, 180],
+    "innerColor": [255, 210, 0],
+    "uniqueName": "Kingdom of Bosnia",
+    "uniques": [
+      "[+1 Gold] from every [Market]",
+      "[+1 Culture] from every [Castle]"
+    ],
+    "cities": [
+      "Sarajevo", "Banja Luka", "Mostar", "Tuzla",
+      "Zenica", "Bihać", "Travnik", "Jajce",
+      "Doboj", "Trebinje"
+    ]
+  },
+  {
+    "name": "Bulgaria",
+    "leaderName": "Simeon I",
+    "adjective": ["Bulgarian"],
+    "startBias": ["Grassland"],
+    "outerColor": [190, 0, 0],
+    "innerColor": [255, 255, 255],
+    "uniqueName": "Golden Age of Bulgaria",
+    "uniques": [
+      "[+2 Culture] from every [Library]",
+      "[+1 Science] from every [University]"
+    ],
+    "cities": [
+      "Sofia", "Plovdiv", "Varna", "Burgas",
+      "Veliko Tarnovo", "Pleven", "Ruse",
+      "Shumen", "Vidin", "Silistra"
+    ]
+  },
+  {
+    "name": "Croatia",
+    "leaderName": "Tomislav",
+    "adjective": ["Croatian"],
+    "startBias": ["Coast"],
+    "outerColor": [255, 0, 0],
+    "innerColor": [255, 255, 255],
+    "uniqueName": "Adriatic Republic",
+    "uniques": [
+      "[+1 Gold] from [Coast] tiles [in all cities]",
+      "[+15]% Production when constructing [Water] units"
+    ],
+    "cities": [
+      "Zagreb", "Split", "Dubrovnik", "Rijeka",
+      "Zadar", "Osijek", "Pula", "Šibenik",
+      "Varaždin", "Karlovac"
+    ]
+  },
+  {
+    "name": "Greece",
+    "leaderName": "Pericles",
+    "adjective": ["Greek"],
+    "startBias": ["Coast"],
+    "outerColor": [0, 70, 180],
+    "innerColor": [255, 255, 255],
+    "uniqueName": "Legacy of Hellas",
+    "uniques": [
+      "[+1 Culture] from every [Amphitheater]",
+      "City-State Influence degrades at half and recovers at twice the normal rate"
+    ],
+    "cities": [
+      "Athens", "Sparta", "Thessaloniki", "Corinth",
+      "Thebes", "Argos", "Patras", "Larissa",
+      "Rhodes", "Heraklion"
+    ]
+  },
+  {
+    "name": "Kosovo",
+    "leaderName": "Ibrahim Rugova",
+    "adjective": ["Kosovar"],
+    "startBias": ["Hill"],
+    "outerColor": [0, 60, 180],
+    "innerColor": [255, 220, 0],
+    "uniqueName": "Newborn State",
+    "uniques": [
+      "[+1 Production] from every [Workshop]",
+      "[+10]% growth [in all cities]"
+    ],
+    "cities": [
+      "Pristina", "Prizren", "Peja", "Gjakova",
+      "Mitrovica", "Gjilan", "Ferizaj", "Vushtrri"
+    ]
+  },
+  {
+    "name": "Montenegro",
+    "leaderName": "Petar II Petrović-Njegoš",
+    "adjective": ["Montenegrin"],
+    "startBias": ["Hill"],
+    "outerColor": [200, 0, 0],
+    "innerColor": [255, 200, 0],
+    "uniqueName": "Mountain Fortress",
+    "uniques": [
+      "[+15]% Strength <when fighting in [Hill] tiles>",
+      "[+1 Culture] from every [Castle]"
+    ],
+    "cities": [
+      "Cetinje", "Podgorica", "Kotor", "Budva",
+      "Nikšić", "Bar", "Herceg Novi", "Ulcinj"
+    ]
+  },
+  {
+    "name": "North Macedonia",
+    "leaderName": "Samuel",
+    "adjective": ["Macedonian"],
+    "startBias": ["Hill"],
+    "outerColor": [220, 0, 0],
+    "innerColor": [255, 210, 0],
+    "uniqueName": "Alexander's Legacy",
+    "uniques": [
+      "[+10]% Strength <when attacking>",
+      "[+1 Culture] from every [Barracks]"
+    ],
+    "cities": [
+      "Skopje", "Ohrid", "Bitola", "Prilep",
+      "Kumanovo", "Tetovo", "Veles", "Štip"
+    ]
+  },
+  {
+    "name": "Romania",
+    "leaderName": "Carol I",
+    "adjective": ["Romanian"],
+    "startBias": ["Forest"],
+    "outerColor": [0, 40, 160],
+    "innerColor": [255, 210, 0],
+    "uniqueName": "Carpathian Kingdom",
+    "uniques": [
+      "[+1 Production] from every [Workshop]",
+      "[+10]% Strength <when fighting in [Forest] tiles>"
+    ],
+    "cities": [
+      "Bucharest", "Cluj-Napoca", "Timișoara",
+      "Iași", "Constanța", "Brașov",
+      "Sibiu", "Craiova", "Oradea", "Suceava"
+    ]
+  },
+  {
+    "name": "Serbia",
+    "leaderName": "Stefan Dušan",
+    "adjective": ["Serbian"],
+    "startBias": ["Hill"],
+    "outerColor": [200, 0, 0],
+    "innerColor": [0, 50, 140],
+    "uniqueName": "Serbian Empire",
+    "uniques": [
+      "[+1 Culture] from every [Barracks]",
+      "[+15]% Strength <when fighting in [Hill] tiles>"
+    ],
+    "cities": [
+      "Belgrade", "Novi Sad", "Niš", "Kragujevac",
+      "Subotica", "Novi Pazar", "Užice",
+      "Kruševac", "Leskovac", "Zrenjanin"
+    ]
+  },
+  {
+    "name": "Slovenia",
+    "leaderName": "Herman II of Celje",
+    "adjective": ["Slovenian"],
+    "startBias": ["Forest"],
+    "outerColor": [0, 80, 180],
+    "innerColor": [255, 255, 255],
+    "uniqueName": "Alpine Prosperity",
+    "uniques": [
+      "[+1 Science] from every [University]",
+      "[+1 Gold] from every [Market]"
+    ],
+    "cities": [
+      "Ljubljana", "Maribor", "Celje", "Kranj",
+      "Koper", "Novo Mesto", "Ptuj",
+      "Murska Sobota", "Velenje", "Piran"
+    ]
+  }
 ]
